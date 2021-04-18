@@ -1,2 +1,3 @@
-# frontlab3
-lab3frontend
+# frontlab3fr
+frontend
+
