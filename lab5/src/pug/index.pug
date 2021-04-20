@@ -1,0 +1,31 @@
+doctype html
+mixin link(href, name)
+    a(class!=attributes.class href=href)=name
+html
+    head
+        // Название вкладки
+        title Головна сторінка
+        meta(charset='utf-8')
+        link(rel='shotcut icon' href='img/13.png')
+    body
+        h1 Особиста сторінка Суханова Олександра
+        // Маркерованный список
+        ul
+            li
+                +link('index.html', 'Головна сторінка')(class="btn")
+            li
+                +link('rozklad.html', 'Мій розклад')(class="btn")
+            li
+                +link('photo.html', 'Фотоальбом')(class="btn")
+            li
+                +link('news.html', 'Останні новини')(class="btn")
+        h2 Моя біографія
+        // Изображение
+        img(src='img/1.jpg' width='300')
+        p Олександр, 20 років, навчаюсь в ЗНУ
+        // Сноска
+        aside
+            p
+                | Что разум человека может постигнуть и во что он может поверить, того он способен достичь
+        footer
+            p Copyright 2015. Всі права захищені.  Напишить мені
