@@ -1,0 +1,94 @@
+#header {
+  background: #3CB371;
+  padding: 5px;
+}
+body {
+  background: radial-gradient(#BDF400, #FFE173);
+}
+h1 {
+  text-align: center;
+  color: white;
+  font: bold 36px Times;
+}
+h2 {
+  text-align: center;
+  font: 34px Impact;
+}
+a {
+  text-decoration: none;
+}
+mark {
+  background-color: black;
+  color: red;
+}
+figure {
+  text-align: center;
+  font: 14px Impact;
+  margin: auto;
+}
+aside {
+  width: 300px;
+  font: 18px Calibri;
+  text-align: center;
+  margin: auto;
+}
+#bodyour {
+  margin: auto;
+  width: 900px;
+  height: auto;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  background: white;
+}
+#myop {
+  width: 750px;
+  font: 32px Calibri;
+  text-align: center;
+  margin: auto;
+}
+footer {
+  text-align: center;
+}
+#ul40px {
+  padding-right: 40px;
+}
+li {
+  list-style: none;
+  text-align: center;
+  font: 18px Calibri;
+  background: white;
+  margin: auto;
+  border: 1px solid black;
+  width: 200px;
+}
+table {
+  margin: auto;
+  font: 24px Calibri;
+}
+#roz1 {
+  text-align: center;
+}
+#r {
+  text-align: center;
+}
+#photoH {
+  text-align: center;
+}
+#newsH {
+  text-align: center;
+}
+#News {
+  margin: auto;
+  width: 900px;
+  height: auto;
+  padding-top: 20px;
+  padding-bottom: 40px;
+  background: #FFEFD5;
+}
+#newss {
+  width: 750px;
+  font: 16px Calibri;
+  text-align: center;
+  margin: auto;
+}
+/*# sourceMappingURL=slyle.css.map */
