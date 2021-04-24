@@ -1,0 +1,128 @@
+@padding5px: 5px;
+@padding20px: 20px;
+@textalingcenter: center;
+@paramAuto: auto;
+@parcolorWhite: white;
+
+#header {
+  background: #3CB371;
+  padding: @padding5px;
+  padding-right: 5px;
+  padding-left: 5px;
+}
+body {
+  background: radial-gradient(#BDF400, #FFE173);
+}
+h1 {
+  text-align: @textalingcenter;
+  color: @parcolorWhite;
+  font: bold 36px Times;
+}
+h2 {
+  text-align: @textalingcenter;
+  font: 34px Impact;
+}
+a {
+  text-decoration: none;
+}
+mark {
+  background-color: black;
+  color: red;
+}
+figure {
+  text-align: @textalingcenter;
+  font: 14px Impact;
+  margin: @paramAuto;
+}
+aside {
+  width: 300px;
+  font: 18px Calibri;
+  text-align: @textalingcenter;
+  margin: @paramAuto;
+}
+#bodyour {
+  margin: @paramAuto;
+  width: 900px;
+  height: @paramAuto;
+  padding-top: @padding20px;
+  padding-bottom: @padding20px;
+  background: @parcolorWhite;
+}
+#myop {
+  width: 750px;
+  font: 32px Calibri;
+  text-align: @textalingcenter;
+  margin: @paramAuto;
+}
+footer {
+  text-align: @textalingcenter;
+}
+#ul40px {
+  padding-right: 40px;
+}
+#teacher{
+  padding-right: 40px;
+}
+li {
+  list-style: none;
+  text-align: @textalingcenter;
+  font: 18px Calibri;
+  background: @parcolorWhite;
+  margin: @paramAuto;
+  border: 1px solid black;
+  width: 200px;
+}
+table {
+  margin: @paramAuto;
+  font: 24px Calibri;
+  width: 85%;
+}
+#roz1 {
+  text-align: @textalingcenter;
+}
+#r {
+  text-align: @textalingcenter;
+}
+#photoH {
+  text-align: @textalingcenter;
+}
+#newsH {
+  text-align: @textalingcenter;
+}
+#News {
+  margin: @paramAuto;
+  width: 900px;
+  height: @paramAuto;
+  padding-top: @padding20px;
+  padding-bottom: 40px;
+  background: #FFEFD5;
+}
+#newss {
+  width: 750px;
+  font: 16px Calibri;
+  text-align: @textalingcenter;
+  margin: @paramAuto;
+}
+.container{
+  //max-width: 1253px;
+}
+@media  (max-width: 768px){
+ .container{
+   width: 90%;
+   text-align: center;
+   margin: auto;
+ }
+  table{
+    margin: auto;
+    text-align: center;
+  }
+  #News{
+    margin: auto;
+    width: auto;
+  }
+  #newss{
+    width: auto;
+    text-align: @textalingcenter;
+    margin: @paramAuto;
+  }
+}

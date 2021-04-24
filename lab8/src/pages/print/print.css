@@ -1,0 +1,18 @@
+footer{
+    display: none;
+}
+#ul40px{
+    display: none;
+}
+a[href^="http"]:after {
+    content: " (" attr(href) ")";
+}
+h1,h2{
+    font-family: "Times New Roman";
+}
+@page {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-left: 50px;
+    margin-right: 50px;
+}
