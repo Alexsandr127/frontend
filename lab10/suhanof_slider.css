@@ -1,0 +1,41 @@
+.sl {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    z-index: 1;
+
+    -webkit-transition: opacity 1s;
+    -moz-transition: opacity 1s;
+    -o-transition: opacity 1s;
+    transition: opacity 1s;
+}
+.slider{
+    height: 210px;
+    width: 300px;
+    margin: 10px auto;
+}
+#forsl{
+    position: relative;
+    height: 150px;
+    padding: 0px;
+    margin: 0px;
+    list-style-type: none;
+}
+li{
+    display: inline-block;
+    list-style: none;
+}
+img{
+    display: block;
+}
+.butcen{
+    padding-top: 35px;
+    text-align: center;
+}
+.showing {
+    opacity: 1;
+    z-index: 2;
+}
